@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <%- include('styles') -%>
+    </head>
+    <body>
+
+  <!-- <h2>Popup Chat Window</h2>
+    <p>Click on the button at the bottom of this page to open the chat form.</p>
+    <p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.</p> -->
+   
+    <div class="chat-popup" id="myForm">
+        <form action="/chat" class="form-container">
+          <h1>Gift Shop</h1>
+              <label for="username"><b>Enter username to connect</b></label>
+              <input placeholder="Type your name.." name="username" required />
+           <button type="submit" class="btn">Enter</button>
+        </form>
+      </div>
+    </body>
+</html>
