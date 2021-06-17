@@ -1,0 +1,18 @@
+{
+  "name": "redissearch",
+  "version": "1.0.0",
+  "description": "Simple product management app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Shyam Lakhani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "method-override": "^3.0.0",
+    "redis": "^3.1.2"
+  }
+}

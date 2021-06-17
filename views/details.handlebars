@@ -1,0 +1,9 @@
+<h1>{{product.product_name}} [{{product.id}}]</h1>
+<ul class="list-group">
+  <li class="list-group-item"><strong>Discount: </strong>{{product.discount}}</li>
+  <li class="list-group-item"><strong>Valid Till: </strong>{{product.product_date}}</li>
+</ul>
+<a class="btn btn-default pull-left" href="/">Back</a>
+<form method="POST" action="/product/delete/{{product.id}}?_method=DELETE">
+  <input type="submit" class="btn btn-danger pull-right" value="Delete">
+</form>
