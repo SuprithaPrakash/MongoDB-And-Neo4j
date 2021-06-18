@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const redis = require('redis');
 
-// Create Redis Product
+// Create Redis 
 let product = redis.createClient();
 
 product.on('connect', function(){
